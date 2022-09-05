@@ -1,7 +1,7 @@
 import Image from 'next/image';
 function ComingSoon() {
   return (
-    <div className="flex w-full justify-center relative">
+    <div className="animate-pulse flex w-full justify-center relative text-white">
       <div className="animate__animated animate__fadeInLeft text-6xl staat tracking-widest">
         COMING &nbsp;
       </div>
@@ -26,19 +26,30 @@ function Logo() {
   );
 }
 
+function Heading() {
+  return (
+    <div className='relative font-bold text-8xl text-white tracking-widest'>
+      PANTHEON '22
+    </div>
+  )
+}
+
 function Home() {
   return (
-    <div className="flex w-screen h-screen flex-col items-center justify-center gap-16">
-      {/* <div className="absolute h-screen w-screen z-10">
+    <div>
+      <div className="absolute h-screen w-screen opacity-90">
         <Image
-          src="/home/logo.png"
+          src="/home/bg.jpg"
           alt="logo"
           layout='fill'
           objectFit="cover"
         />
-      </div> */}
+      </div>
+    <div className="flex w-screen h-screen flex-col items-center justify-center gap-16">
       <Logo />
+      <Heading />
       <ComingSoon />
+    </div>
     </div>
   );
 }

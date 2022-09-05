@@ -38,8 +38,8 @@ export default function Navbar() {
   const [menu, setMenu] = useState(false);
   return (
     <nav className="navbar z-50 h-16 w-screen fixed flex items-center lg:justify-around px-4 bg-black top-0 shadow-sm">
-      <div className="logo mt-4">
-        <Image src="" height={174} width={174} alt="logo" />
+      <div className="logo mt-4 cursor-pointer">
+        <Image src="/home/logo.png" height={70} width={70} alt="logo" />
       </div>
       <div
         className={`${
