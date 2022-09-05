@@ -10,5 +10,13 @@ html {
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  font-family: 'Poppins';
 }
 
+.poppins {
+  font-family: 'Poppins';
+}
+
+.staat {
+  font-family: 'Staatliches';
+}
