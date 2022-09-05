@@ -1,11 +1,11 @@
 import Image from 'next/image';
 function ComingSoon() {
   return (
-    <div className="animate-pulse flex w-full justify-center relative text-white">
-      <div className="animate__animated animate__fadeInLeft text-3xl sm:text-6xl staat tracking-widest">
+    <div className="animate-pulse flex justify-center relative text-white">
+      <div className="animate__animated animate__fadeInLeft text-4xl sm:text-6xl staat tracking-widest">
         COMING &nbsp;
       </div>
-      <div className="animate__animated animate__fadeInRight text-3xl sm:text-6xl staat tracking-widest">
+      <div className="animate__animated animate__fadeInRight text-4xl sm:text-6xl staat tracking-widest">
         SOON
       </div>
     </div>
