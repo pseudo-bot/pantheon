@@ -6,8 +6,11 @@ import Link from "next/link";
 export default function LeftNavContainer({ currentPage, children }) {
   return (
     <div className="mt-16 flex flex-col md:flex-row h-[calc(100vh-4rem)]">
-      <div className="flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
-        <h1 className="font-bold text-lg">Welcome To Pantheon BIT Mesra</h1>
+      <div className="md:w-4/12 lg:w-3/12 flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
+        <h1 className="font-bold text-xl text-center">
+          Welcome To <p className="text-rose-900 m-0 text-4xl">Pantheon</p> BIT
+          Mesra
+        </h1>
         <Button active={currentPage == 0} to="register">
           Indivdual Registeration
         </Button>
@@ -29,7 +32,7 @@ const Button = ({ active, to, children }) => {
   return (
     <Link href={to}>
       <div
-        className={`w-full px-2 py-4 text-white rounded font-bold ${
+        className={`w-full px-2 py-4 text-white rounded font-bold cursor-pointer ${
           active ? "bg-rose-900" : "bg-red-700"
         }`}
       >
