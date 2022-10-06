@@ -1,11 +1,11 @@
 import Image from 'next/image';
 function ComingSoon() {
   return (
-    <div className="animate-pulse flex w-full justify-center relative text-white">
-      <div className="animate__animated animate__fadeInLeft text-6xl staat tracking-widest">
+    <div className="animate-pulse flex justify-center relative text-white">
+      <div className="animate__animated animate__fadeInLeft text-4xl sm:text-6xl staat tracking-widest">
         COMING &nbsp;
       </div>
-      <div className="animate__animated animate__fadeInRight text-6xl staat tracking-widest">
+      <div className="animate__animated animate__fadeInRight text-4xl sm:text-6xl staat tracking-widest">
         SOON
       </div>
     </div>
@@ -18,8 +18,8 @@ function Logo() {
       <Image
         src="/home/logo.png"
         alt="logo"
-        height={300}
-        width={300}
+        height={200}
+        width={200}
         objectFit="cover"
       />
     </div>
@@ -28,7 +28,7 @@ function Logo() {
 
 function Heading() {
   return (
-    <div className='relative font-bold text-8xl text-white tracking-widest'>
+    <div className='relative font-bold text-4xl sm:text-8xl text-white tracking-widest'>
       PANTHEON '22
     </div>
   )
