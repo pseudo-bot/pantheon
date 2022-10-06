@@ -42,22 +42,22 @@ export default function Register() {
           <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
 
           <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-            Name
+            College
           </label>
           <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
 
           <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-            Name
+            College Roll No. 
           </label>
           <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
 
           <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-            Name
+            Phone No. 
           </label>
           <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
 
           <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-            Name
+            Email
           </label>
           <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
 
