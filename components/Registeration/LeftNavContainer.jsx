@@ -19,7 +19,7 @@ export default function LeftNavContainer({ currentPage, children }) {
           BIT Mesra
         </h1>
         <Button active={currentPage == 0} to="register">
-          Indivdual Registration
+          Individual Registration
         </Button>
         <Button active={currentPage == 1} to="team">
           Team Registration
