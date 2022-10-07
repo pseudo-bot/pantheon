@@ -1,43 +1,114 @@
 import LeftNavContainer from "../components/Registeration/LeftNavContainer";
+import { useState } from "react";
+import { validateName } from "../validate";
 
 export default function Register() {
+  const inputClass =
+    "appearance-none bg-neutral-600 block md:w-9/12 w-full border border-gray-800 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500";
+
+  const labelClass =
+    "block uppercase tracking-wide text-rose-600 text-xs font-bold mb-2";
+
+  const [name, setName] = useState("");
+  const [validname, setvalidname] = useState(true);
+
+  const [modalData, setModalData] = useState(false);
+  const [uid, setUid] = useState("");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: Post req.
-    const h = new Headers();
-    h.set("Content-Type", "application/json");
-    const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/create`, {
-      method: "POST",
-      headers: h,
-      body: JSON.stringify({
-        name: "Awesome Team",
-        uid: "PNT-7ibfPAoU",
-      }),
-    });
-    const res = await t.json();
-    console.log(res);
+    let valid = true;
+
+    if (!validateName(name)) {
+      setvalidname(false);
+      console.log("invalidName");
+      valid = false;
+    }
+    if (valid) {
+      const h = new Headers();
+      h.set("Content-Type", "application/json");
+      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/create`, {
+        method: "POST",
+        headers: h,
+        body: JSON.stringify({
+          name: name,
+          uid: uid,
+        }),
+      });
+      if (t.status == 201) {
+        const res = await t.json();
+        console.log(res);
+        setModalData({
+          greenText: "Success",
+          redText: "Please take a screenshot of this page before going further",
+          blackText: `Your Team ID is ${res.tid}`,
+        });
+      } else {
+        const res = await t.json();
+        setModalData({
+          greenText: "",
+          redText: "Error",
+          blackText: res.msg,
+        });
+      }
+    }
   };
   return (
-    <LeftNavContainer currentPage={1}>
-      <h1 className="font-bold text-2xl mt-4 mx-4">Team Registeration </h1>
-      <form onSubmit={handleSubmit} className="m-4">
-        <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-          Teams Name
-        </label>
-        <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
+    <>
+      {modalData && (
+        <div className="absolute w-screen p-4 z-10 bg-neutral-500/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
+          <div className="flex-1 text-center flex flex-col justify-center">
+            <div className="font-bold text-2xl text-green-600">
+              {" "}
+              {modalData.greenText}{" "}
+            </div>
+            <div className="text-red-500 text-2xl mt-4 font-bold">
+              {modalData.redText}
+            </div>
+            <div className="text-4xl text-white mt-4">
+              {modalData.blackText}
+            </div>
+          </div>
+          <button
+            className="bg-rose-900 text-white font-bold px-4 py-2 rounded-md"
+            onClick={() => {
+              setModalData(false);
+            }}
+          >
+            Done
+          </button>
+        </div>
+      )}
+      <LeftNavContainer currentPage={1}>
+        <h1 className="font-bold text-4xl mt-4 mx-4">Team Registration </h1>
+        <form onSubmit={handleSubmit} className="m-4">
+          <label className={labelClass}>
+            Teams Name {!validname && "Error, Please Check Again"}
+          </label>
+          <input
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+            className={inputClass}
+          />
 
-        <label className="block uppercase tracking-wide text-rose-700 text-xs font-bold mb-2">
-          Personal Id
-        </label>
-        <input className="appearance-none block md:w-9/12 w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500" />
+          <label className={labelClass}>Personal Id</label>
+          <input
+            onChange={(e) => {
+              setUid(e.target.value);
+            }}
+            className={inputClass}
+          />
 
-        <button
-          type="submit"
-          className="bg-rose-700 text-white font-bold rounded-md px-4 py-2"
-        >
-          Register
-        </button>
-      </form>
-    </LeftNavContainer>
+          <button
+            onClick={handleSubmit}
+            type="submit"
+            className="bg-rose-700 text-white font-bold rounded-md px-4 py-2"
+          >
+            Register
+          </button>
+        </form>
+      </LeftNavContainer>
+    </>
   );
 }

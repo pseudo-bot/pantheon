@@ -6,26 +6,23 @@ import Image from "next/image";
 // Use 2 for Join
 export default function LeftNavContainer({ currentPage, children }) {
   return (
-    <div className="mt-16 flex flex-col md:flex-row h-[calc(100vh-4rem)]">
-      <div className="md:w-4/12 lg:w-3/12 flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
-        <h1 className="mt-4 font-bold text-xl text-center">
+    <div className="bg-neutral-800 text-white mt-16 flex flex-col md:flex-row h-[calc(100vh-4rem)]">
+      <div className="md:w-5/12 lg:w-4/12 flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
+        <h1 className="my-4 font-bold text-xl text-center">
           Welcome To
           <div className="logo">
-            <Image
-              className="brightness-0"
-              src="/home/logo.png"
-              height={70}
-              width={70}
-              alt="logo"
-            />
+            <Image src="/home/logo.png" height={70} width={70} alt="logo" />
           </div>
-          <p className="text-rose-900 m-0 text-4xl">Pantheon</p> BIT Mesra
+          <p className="text-orange-600 tracking-tight m-0 text-4xl">
+            Pantheon
+          </p>
+          BIT Mesra
         </h1>
         <Button active={currentPage == 0} to="register">
-          Indivdual Registeration
+          Indivdual Registration
         </Button>
         <Button active={currentPage == 1} to="team">
-          Team Registeration
+          Team Registration
         </Button>
         <Button active={currentPage == 2} to="join">
           Join a team
