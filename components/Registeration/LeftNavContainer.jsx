@@ -6,7 +6,7 @@ import Image from "next/image";
 // Use 2 for Join
 export default function LeftNavContainer({ currentPage, children }) {
   return (
-    <div className="bg-neutral-800 text-white mt-16 flex flex-col md:flex-row h-[calc(100vh-4rem)]">
+    <div className="bg-neutral-800 text-white mt-16 flex flex-col min-h-[calc(100vh-4rem)] md:flex-row md:h-[calc(100vh-4rem)]">
       <div className="md:w-5/12 lg:w-4/12 flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
         <h1 className="my-4 font-bold text-xl text-center">
           Welcome To

@@ -21,7 +21,7 @@ function NavItems({ menu, setMenu }) {
     <div
       className={`${
         menu ? "" : "opacity-0 pointer-events-none"
-      } bg-black absolute h-screen lg:h-auto right-0 top-16 w-44 flex lg:gap-0 flex-col gap-3 pl-4 py-4 lg:text-md text-gray-200 transition-all duration-200 lg:opacity-100 uppercase lg:pointer-events-auto tracking-wider lg:flex-row lg:relative lg:p-0 lg:top-0 lg:bg-transparent lg:w-auto -z-10 shadow-md lg:shadow-none rounded-bl-lg`}
+      } bg-black absolute h-[calc(100vh-4rem)] lg:h-auto right-0 top-16 w-44 flex lg:gap-0 flex-col gap-3 pl-4 py-4 lg:text-md text-gray-200 transition-all duration-200 lg:opacity-100 uppercase lg:pointer-events-auto tracking-wider lg:flex-row lg:relative lg:p-0 lg:top-0 lg:bg-transparent lg:w-auto -z-10 shadow-md lg:shadow-none lg:rounded-bl-lg`}
     >
       <NavItem name="Home" link="/" setMenu={setMenu} />
       <NavItem name="About" link="/about" setMenu={setMenu} />
