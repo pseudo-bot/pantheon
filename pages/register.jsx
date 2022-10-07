@@ -91,7 +91,7 @@ export default function Register() {
   return (
     <>
       {modalData && (
-        <div className="absolute w-screen p-4 z-10 bg-neutral-500/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
+        <div className="fixed w-screen p-4 z-10 bg-neutral-500/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
           <div className="flex-1 text-center flex flex-col justify-center">
             <div className="font-bold text-2xl text-green-600">
               {" "}
