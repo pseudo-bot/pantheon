@@ -115,7 +115,9 @@ export default function Register() {
         </div>
       )}
       <LeftNavContainer currentPage={0}>
-        <h1 className="font-bold text-4xl mt-4 mx-4">Indivdual Registration</h1>
+        <h1 className="font-bold text-4xl mt-4 mx-4">
+          Individual Registration
+        </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
             Name {!validname && "Error, Please Check Again"}
