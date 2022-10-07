@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 // This currentPage is used to show which one is currently active
 // Use 0 for Individual
 // Use 1 for Team
@@ -7,9 +8,18 @@ export default function LeftNavContainer({ currentPage, children }) {
   return (
     <div className="mt-16 flex flex-col md:flex-row h-[calc(100vh-4rem)]">
       <div className="md:w-4/12 lg:w-3/12 flex gap-4 flex-col md:h-[calc(100vh-4rem)] px-4 py-2 items-center">
-        <h1 className="font-bold text-xl text-center">
-          Welcome To <p className="text-rose-900 m-0 text-4xl">Pantheon</p> BIT
-          Mesra
+        <h1 className="mt-4 font-bold text-xl text-center">
+          Welcome To
+          <div className="logo">
+            <Image
+              className="brightness-0"
+              src="/home/logo.png"
+              height={70}
+              width={70}
+              alt="logo"
+            />
+          </div>
+          <p className="text-rose-900 m-0 text-4xl">Pantheon</p> BIT Mesra
         </h1>
         <Button active={currentPage == 0} to="register">
           Indivdual Registeration
@@ -21,7 +31,7 @@ export default function LeftNavContainer({ currentPage, children }) {
           Join a team
         </Button>
       </div>
-      <div className="md:h-[calc(100vh-4rem)] w-full overflow-y-scroll">
+      <div className="md:h-[calc(100vh-4rem)] w-full md:overflow-y-scroll">
         {children}
       </div>
     </div>

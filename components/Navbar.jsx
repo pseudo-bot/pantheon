@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
 
 function NavItem({ name, link, setMenu }) {
   return (
@@ -20,7 +20,7 @@ function NavItems({ menu, setMenu }) {
   return (
     <div
       className={`${
-        menu ? '' : 'opacity-0 pointer-events-none'
+        menu ? "" : "opacity-0 pointer-events-none"
       } bg-black absolute right-0 top-16 w-44 flex lg:gap-0 flex-col gap-3 pl-4 py-4 lg:text-md text-gray-200 transition-all duration-200 lg:opacity-100 uppercase lg:pointer-events-auto tracking-wider lg:flex-row lg:relative lg:p-0 lg:top-0 lg:bg-transparent lg:w-auto -z-10 shadow-md lg:shadow-none rounded-bl-lg`}
     >
       <NavItem name="Home" link="/" setMenu={setMenu} />
@@ -40,11 +40,13 @@ export default function Navbar() {
   return (
     <nav className="navbar z-50 h-16 w-screen fixed flex items-center lg:justify-around px-4 bg-black top-0 shadow-sm">
       <div className="logo mt-4 cursor-pointer">
-        <Image src="/home/logo.png" height={70} width={70} alt="logo" />
+        <Link href="/">
+          <Image src="/home/logo.png" height={70} width={70} alt="logo" />
+        </Link>
       </div>
       <div
         className={`${
-          menu ? 'hamburger-menu--active' : ''
+          menu ? "hamburger-menu--active" : ""
         } hamburger-menu absolute right-8 lg:hidden group`}
         onClick={() => {
           setMenu(!menu);
