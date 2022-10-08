@@ -3,21 +3,25 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	/* This is the background for most pages ie neutral-800 */
+	background-color: #171717;
 }
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  font-family: 'Poppins';
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	font-family: "Poppins";
 }
 
 .poppins {
-  font-family: 'Poppins';
+	font-family: "Poppins";
 }
 
 .staat {
-  font-family: 'Staatliches';
+	font-family: "Staatliches";
 }
