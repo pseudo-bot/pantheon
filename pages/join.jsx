@@ -3,15 +3,18 @@ import { useState } from "react";
 
 export default function Register() {
   const inputClass =
-    "appearance-none bg-neutral-600 block md:w-9/12 w-full border border-gray-800 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-rose-500";
+    "appearance-none font-semibold bg-neutral-600 block md:w-9/12 w-full border border-gray-800 rounded py-3 px-4 mb-3 leading-tight outline-none focus:border-rose-500";
 
   const labelClass =
-    "block uppercase tracking-wide text-rose-600 text-xs font-bold mb-2";
+    "block uppercase tracking-wide text-orange-500 text-xs font-bold mb-2";
+
+  const [isLoading, setLoading] = useState(false);
   const [modalData, setModalData] = useState(false);
   const [tid, setTid] = useState("");
   const [uid, setUid] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     const h = new Headers();
     h.set("Content-Type", "application/json");
     const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/join`, {
@@ -36,11 +39,12 @@ export default function Register() {
         blackText: res.msg,
       });
     }
+    setLoading(false);
   };
   return (
     <>
       {modalData && (
-        <div className="fixed w-screen p-4 z-10 bg-neutral-500/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
+        <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
           <div className="flex-1 text-center flex flex-col justify-center">
             <div className="font-bold text-2xl text-green-600">
               {" "}
@@ -84,7 +88,10 @@ export default function Register() {
 
           <button
             type="submit"
-            className="bg-rose-700 text-white font-bold rounded-md px-4 py-2"
+            disabled={isLoading}
+            className={`${
+              isLoading ? "bg-gray-900" : "bg-rose-700"
+            } text-white mt-2 font-bold rounded-md px-12 py-2`}
           >
             Join
           </button>
