@@ -26,10 +26,10 @@ function NavItems({ menu, setMenu }) {
       <NavItem name="Home" link="/" setMenu={setMenu} />
       <NavItem name="About" link="/about" setMenu={setMenu} />
       <NavItem name="Register" link="/register" setMenu={setMenu} />
-      <NavItem name="Events" link="/careers" setMenu={setMenu} />
-      <NavItem name="Prizes" link="/blogs" setMenu={setMenu} />
-      <NavItem name="Sponsors" link="/contact" setMenu={setMenu} />
-      <NavItem name="FAQs" link="/contact" setMenu={setMenu} />
+      <NavItem name="Events" link="/events" setMenu={setMenu} />
+      <NavItem name="Prizes" link="/prizes" setMenu={setMenu} />
+      <NavItem name="Sponsors" link="/sponsors" setMenu={setMenu} />
+      <NavItem name="FAQs" link="/faq" setMenu={setMenu} />
       <NavItem name="Contact" link="/contact" setMenu={setMenu} />
     </div>
   );
