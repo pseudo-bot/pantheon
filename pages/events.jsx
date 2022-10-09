@@ -35,6 +35,16 @@ export default function Events() {
           />
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            name="Code Golf"
+            tsize="1"
+            coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
+            club="IET"
+            venue="Online"
+            datetime="17th Oct 12:00 PM"
+            desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
+          />
+          <Card
+            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             name="Droid Trooper"
             tsize="4-5"
             coordinators="1. Hammad (88047 13497)
@@ -135,20 +145,6 @@ export default function Events() {
           and other hacking techniques. The long duration of this event promotes on-spot
           learning for contestants. Do you have what it takes to capture the countries and beat everyone
           around the clock?"
-          />
-
-          <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-            club="IET"
-            name="Google-it-out"
-            venue="Classrooms"
-            datetime="15/10/17 10:00 AM - 12:00 PM"
-            tsize="2-3"
-            coordinators="1. Shubhankar (7004591798)
-        2. Hardik (7061579443)"
-            desc="The contestants will be shown multiple images and will be required to extract
-        similar images in google image results by tweaking the search parameters. Teams would be
-        ranked on the basis of images identified in the given time."
           />
 
           <Card
@@ -381,6 +377,19 @@ export default function Events() {
         </div>
 
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
+          <Card
+            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            club="IET"
+            name="Google-it-out"
+            venue="Classrooms"
+            datetime="15/10/17 10:00 AM - 12:00 PM"
+            tsize="2-3"
+            coordinators="1. Shubhankar (7004591798)
+        2. Hardik (7061579443)"
+            desc="The contestants will be shown multiple images and will be required to extract
+        similar images in google image results by tweaking the search parameters. Teams would be
+        ranked on the basis of images identified in the given time."
+          />
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             name="Insight Out"
