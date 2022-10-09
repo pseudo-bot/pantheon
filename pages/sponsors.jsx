@@ -5,7 +5,7 @@ const sponsors = () => {
     <div className="mt-16 pb-8 min-h-[calc(100vh-4rem)] h-max text-white bg-neutral-900">
 
       <div className="sm:text-5xl text-5xl pt-8 text-gray-100 uppercase text-center font-bold">
-        Hiring Sponsors
+        Hiring Partner
       </div>
 
 

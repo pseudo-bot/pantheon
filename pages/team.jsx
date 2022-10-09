@@ -99,7 +99,7 @@ export default function Register() {
         </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
-            Teams Name {!validname && "Error, Please Check Again"}
+            Team Name {!validname && "Error, Please Check Again"}
           </label>
           <input
             onChange={(e) => {
