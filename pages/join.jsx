@@ -93,7 +93,7 @@ export default function Register() {
         </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
-            Personal Id {!validuid && "Error, Please Check Again"}
+            Pantheon Id {!validuid && "Error, Please Check Again"}
           </label>
           <input
             onChange={(e) => {

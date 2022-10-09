@@ -76,8 +76,8 @@ export default function Register() {
         const res = await t.json();
         setModalData({
           greenText: "Success",
-          redText: "Your UID have been sent to email",
-          blackText: `Your UID is ${res.uid}`,
+          redText: "Your Pantheon UID has been sent to your email",
+          blackText: `Your Pantheon UID is ${res.uid}`,
         });
       } else {
         const res = await t.json();

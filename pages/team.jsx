@@ -109,7 +109,7 @@ export default function Register() {
           />
 
           <label className={labelClass}>
-            Personal Id {!validname && "Error, Please Check Again"}
+            Pantheon Id {!validname && "Error, Please Check Again"}
           </label>
           <input
             onChange={(e) => {
