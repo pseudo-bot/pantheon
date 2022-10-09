@@ -14,6 +14,7 @@ export default function Register() {
   const [isLoading, setLoading] = useState(false);
   const [modalData, setModalData] = useState(false);
   const [uid, setUid] = useState("");
+  const [validuid, setvaliduid] = useState(true);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,7 +25,17 @@ export default function Register() {
       setvalidname(false);
       console.log("invalidName");
       valid = false;
+    } else {
+      setvalidname(true);
     }
+
+    if (uid == "") {
+      setvaliduid(false);
+      valid = false;
+    } else {
+      setvaliduid(true);
+    }
+
     if (valid) {
       const h = new Headers();
       h.set("Content-Type", "application/json");
@@ -97,7 +108,9 @@ export default function Register() {
             className={inputClass}
           />
 
-          <label className={labelClass}>Personal Id</label>
+          <label className={labelClass}>
+            Personal Id {!validname && "Error, Please Check Again"}
+          </label>
           <input
             onChange={(e) => {
               setUid(e.target.value);

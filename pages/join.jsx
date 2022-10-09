@@ -12,33 +12,52 @@ export default function Register() {
   const [modalData, setModalData] = useState(false);
   const [tid, setTid] = useState("");
   const [uid, setUid] = useState("");
+  const [validtid, setValidTid] = useState(true);
+  const [validuid, setValidUid] = useState(true);
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const h = new Headers();
-    h.set("Content-Type", "application/json");
-    const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/join`, {
-      method: "POST",
-      headers: h,
-      body: JSON.stringify({
-        tid: tid,
-        uid: uid,
-      }),
-    });
-    if (t.status == 200) {
-      setModalData({
-        greenText: "Success",
-        blackText: `Team Joined Successfully`,
-        redText: "",
-      });
+    let valid = true;
+    if (tid == "") {
+      setValidTid(false);
+      valid = false;
     } else {
-      const res = await t.json();
-      setModalData({
-        greenText: "",
-        redText: "Error",
-        blackText: res.msg,
-      });
+      setValidTid(true);
     }
+
+    if (uid == "") {
+      setValidUid(false);
+      valid = false;
+    } else {
+      setValidUid(true);
+    }
+    if (valid) {
+      const h = new Headers();
+      h.set("Content-Type", "application/json");
+      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/join`, {
+        method: "POST",
+        headers: h,
+        body: JSON.stringify({
+          tid: tid,
+          uid: uid,
+        }),
+      });
+      if (t.status == 200) {
+        setModalData({
+          greenText: "Success",
+          blackText: `Team Joined Successfully`,
+          redText: "",
+        });
+      } else {
+        const res = await t.json();
+        setModalData({
+          greenText: "",
+          redText: "Error",
+          blackText: res.msg,
+        });
+      }
+    }
+    valid = true;
     setLoading(false);
   };
   return (
@@ -73,7 +92,9 @@ export default function Register() {
           You can not join/create another team if you're already part of a team
         </h1>
         <form onSubmit={handleSubmit} className="m-4">
-          <label className={labelClass}>Personal Id</label>
+          <label className={labelClass}>
+            Personal Id {!validuid && "Error, Please Check Again"}
+          </label>
           <input
             onChange={(e) => {
               setUid(e.target.value);
@@ -81,7 +102,9 @@ export default function Register() {
             className={inputClass}
           />
 
-          <label className={labelClass}>Team Id</label>
+          <label className={labelClass}>
+            Team Id {!validtid && "Error, Please Check Again"}
+          </label>
           <input
             onChange={(e) => {
               setTid(e.target.value);
