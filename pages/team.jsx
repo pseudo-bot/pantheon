@@ -83,6 +83,9 @@ export default function Register() {
       )}
       <LeftNavContainer currentPage={1}>
         <h1 className="font-bold text-4xl mt-4 mx-4">Team Registration </h1>
+        <h1 className="font-bold text-lg mt-4 mx-4">
+          The Creator of a team can not create/join another team
+        </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
             Teams Name {!validname && "Error, Please Check Again"}

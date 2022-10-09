@@ -69,6 +69,9 @@ export default function Register() {
       )}
       <LeftNavContainer currentPage={2}>
         <h1 className="font-bold text-4xl mt-4 mx-4">Join Team</h1>
+        <h1 className="font-bold text-lg mt-4 mx-4">
+          You can not join/create another team if you're already part of a team
+        </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>Personal Id</label>
           <input
