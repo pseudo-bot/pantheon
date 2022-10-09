@@ -41,7 +41,7 @@ export default function Register() {
         console.log(res);
         setModalData({
           greenText: "Success",
-          redText: "Please take a screenshot of this page before going further",
+          redText: "Your TeamID have been sent to email",
           blackText: `Your Team ID is ${res.tid}`,
         });
       } else {

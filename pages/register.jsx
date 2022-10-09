@@ -76,7 +76,7 @@ export default function Register() {
         const res = await t.json();
         setModalData({
           greenText: "Success",
-          redText: "Please take a screenshot of this page before going further",
+          redText: "Your UID have been sent to email",
           blackText: `Your UID is ${res.uid}`,
         });
       } else {
