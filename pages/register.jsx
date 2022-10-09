@@ -1,5 +1,7 @@
 import { useState } from "react";
 import LeftNavContainer from "../components/Registeration/LeftNavContainer";
+import Head from "next/head";
+
 import {
   validateCollege,
   validateName,
@@ -93,6 +95,9 @@ export default function Register() {
   };
   return (
     <>
+      <Head>
+        <title> Individual Registration | Pantheon 2022</title>
+      </Head>
       {modalData && (
         <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
           <div className="flex-1 text-center flex flex-col justify-center">

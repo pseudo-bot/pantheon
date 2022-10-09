@@ -1,5 +1,6 @@
 import LeftNavContainer from "../components/Registeration/LeftNavContainer";
 import { useState } from "react";
+import Head from "next/head";
 
 export default function Register() {
   const inputClass =
@@ -62,6 +63,9 @@ export default function Register() {
   };
   return (
     <>
+      <Head>
+        <title> Join a team | Pantheon 2022</title>
+      </Head>
       {modalData && (
         <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
           <div className="flex-1 text-center flex flex-col justify-center">
