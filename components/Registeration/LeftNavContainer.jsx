@@ -27,6 +27,9 @@ export default function LeftNavContainer({ currentPage, children }) {
         <Button active={currentPage == 2} to="join">
           Join a team
         </Button>
+        <Button active={currentPage == 3} to="members">
+          Check Team Members
+        </Button>
       </div>
       <div className="md:h-[calc(100vh-4rem)] w-full md:overflow-y-scroll">
         {children}
