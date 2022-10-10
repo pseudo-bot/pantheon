@@ -1,5 +1,5 @@
-import Card from "../components/Events/card";
-import Head from "next/head";
+import Card from '../components/Events/card';
+import Head from 'next/head';
 
 export default function Events() {
   // "https://mdbootstrap.com/img/new/standard/nature/184.jpg"
@@ -32,16 +32,6 @@ export default function Events() {
           time intervals the teammates will be switched. Teams will be ranked according to the
           most problems solved. Ties will be broken by the total time for each team in ascending
           order of time."
-          />
-          <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-            name="Code Golf"
-            tsize="1"
-            coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
-            club="IET"
-            venue="Online"
-            datetime="17th Oct 12:00 PM"
-            desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
           />
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
@@ -146,7 +136,16 @@ export default function Events() {
           learning for contestants. Do you have what it takes to capture the countries and beat everyone
           around the clock?"
           />
-
+          <Card
+            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            name="Code Golf"
+            tsize="1"
+            coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
+            club="IET"
+            venue="Online"
+            datetime="17th Oct 12:00 PM"
+            desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
+          />
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="DANCE CLUB"
