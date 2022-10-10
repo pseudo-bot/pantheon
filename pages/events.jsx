@@ -55,12 +55,24 @@ export default function Events() {
           2.Dhruv(+917004794449)"
             club="Events Team"
             venue="LH 1"
-            datetime="15/10/22 10:00 AM- 1.00 PM"
+            datetime="17/10/22 02:00 PM- 4:00 PM"
             desc="Paper Presentation, in its most unadulterated and genuine form comes to Pantheon
           in the form of Illuminati. To try and test your technical prowess, and provide you with a judgement of your
           presentation skills, Illuminati offers you the opportunity to present a research paper on a scientific theme.
           All you have to do prior to the presentation is submit your abstract and relevant information set. Illuminate
           and thou shalt pass."
+          />
+          <Card
+            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            club="IEEE"
+            name="Flashcode"
+            venue="LH"
+            datetime="15/10/22 9:30AM - 1:00PM"
+            tsize="1-2"
+            coordinators="1. SarvjotSingh(7061508120)
+        2. Rishika Raj (7004478436"
+            desc="Can you learn different languages in a ‘FLASH’? Flex your programming skills
+        in this contest and solve different questions in different languages. Points would be assigned to the language used and the individual questions. We do not expect you to know all these languages (It is a plus if you do), but to learn on the go to beat other contestants to the top."
           />
 
           <Card
@@ -92,7 +104,7 @@ export default function Events() {
           2. Harsh Khokar 9116517499"
             club="IEI Civil"
             venue="LH-1(prelims) & Civil Dept Lab (Final)"
-            datetime="17/10/22 , 10:30 – 11:30 (prelims) & 2:00PM – 4:00 PM(Final)"
+            datetime="16/10/22 , 11:30 – 12:30 (prelims) & 2:00PM – 4:00 PM(Final)"
             desc="The participants who clear prelims round which is a quiz round can go to second
           round in which they have to make a cube from the materials provided to them in the specified time.
           1. Prelims - A Simple Aptitude quiz will be conducted of 25 minutes in LH1.
@@ -123,7 +135,7 @@ export default function Events() {
             club="IEEE"
             name="Captured"
             venue="(Online)"
-            datetime="15/10/22 09:30am"
+            datetime="16/10/22 09:30am"
             tsize="(1 - 3)"
             coordinators="1. Ashutosh Jawanpuria (9570061101)
           2. Shambhavi Singh (9835049071)
@@ -227,7 +239,7 @@ export default function Events() {
             club="IEI Civil"
             name="Cyber-Bridgeton"
             venue="R&D Building"
-            datetime="16/10/2022 (02:00PM – 5:00PM)"
+            datetime="17/10/2022 (02:00PM – 5:00PM)"
             tsize="2"
             coordinators="1. Siddhant Srivastava – 9555181139
   2. Monalisha Mondal - 9334701846"
@@ -278,7 +290,7 @@ export default function Events() {
             club="IIChE"
             name="Chem-A-Thon"
             venue="N/A"
-            datetime="17/10/2022 2:00 PM - 5:00 PM"
+            datetime="16/10/2022 2:00 PM - 5:00 PM"
             tsize="3-4"
             coordinators="1. Devashish - 9334859543 2.Sneha- 8252144101"
             desc="The participants will be provided with a problem statement containing our
@@ -346,18 +358,7 @@ export default function Events() {
         room using chains and locks. They will be provided it technical hint / codes in order to free
         themselves out of the room"
           />
-          <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-            club="IEEE"
-            name="Flashcode"
-            venue="LH"
-            datetime="16/10/22 9:30AM - 1:00PM"
-            tsize="1-2"
-            coordinators="1. SarvjotSingh(7061508120)
-        2. Rishika Raj (7004478436"
-            desc="Can you learn different languages in a ‘FLASH’? Flex your programming skills
-        in this contest and solve different questions in different languages. Points would be assigned to the language used and the individual questions. We do not expect you to know all these languages (It is a plus if you do), but to learn on the go to beat other contestants to the top."
-          />
+          
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="Society for Data Science"
