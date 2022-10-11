@@ -33,15 +33,15 @@ export default function Register() {
     e.preventDefault();
     setLoading(true);
 
+    const trimmedemail = email.trim();
     let valid = true;
-
     if (!validateName(name)) {
       setvalidname(false);
       valid = false;
     } else {
       setvalidname(true);
     }
-    if (!validateEmail(email)) {
+    if (!validateEmail(trimmedemail)) {
       setvalidemail(false);
       valid = false;
     } else {
@@ -70,7 +70,7 @@ export default function Register() {
           name: name,
           college: college,
           phone: phone,
-          email: email,
+          email: trimmedemail,
           roll: roll,
         }),
       });
