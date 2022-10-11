@@ -405,7 +405,7 @@ export default function Events() {
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             name="Murder Mystery"
-            venue="Mehek, IC Arena, Veda-e-Café, Mandir, Transport, R&D."
+            venue="Mehek"
             datetime="17th October, 9:30AM -1.00 pm"
             tsize="1 to 4"
             coordinators="1. Danish - 9462158925 2. Divesh - 9608818149"
