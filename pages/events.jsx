@@ -14,8 +14,12 @@ export default function Events() {
           // This is the Card Container,
           // Copy this as a wrapper to the card component
         }
+        
         <div className="sm:text-5xl text-4xl pt-8 text-gray-100 uppercase text-center font-bold">
-          Flagship Events
+          Flagship Events 
+        </div>
+        <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
+        POINTS : (250 - 200 - 150)
         </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
@@ -77,7 +81,7 @@ export default function Events() {
 
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-            name="Hatch from Scratch"
+            name="Hatch from Scratch (300 - 250 - 200)"
             tsize="2-3"
             coordinators="1.Lakshya (7992372721)
           2.Rishav (9031737417)"
@@ -129,6 +133,9 @@ export default function Events() {
         <div className="sm:text-5xl text-4xl pt-8 text-gray-100 uppercase text-center font-bold">
           Formal Events
         </div>
+        <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
+        POINTS : (125 - 100 - 75)
+        </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
@@ -155,7 +162,7 @@ export default function Events() {
             coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
             club="IET"
             venue="Online"
-            datetime="15th Oct 10:00AM-1:00PM"
+            datetime="15th Oct 10:00PM - 1:00AM"
             desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
           />
           <Card
@@ -163,7 +170,7 @@ export default function Events() {
             club="DANCE CLUB"
             name="Razzmatazz"
             venue="GP Birla Auditorium"
-            datetime="17TH OCTOBER 2022 4PM TO 5PM"
+            datetime="17TH OCTOBER 2022 4PM - 5PM"
             tsize=""
             coordinators="1. Akriti- 7544983031
         2. Vijeta - 7294150969"
@@ -374,6 +381,9 @@ export default function Events() {
 
         <div className="sm:text-5xl text-4xl pt-8 text-gray-100 uppercase text-center font-bold">
           Informal Events
+        </div>
+        <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
+        POINTS : (75 - 60 - 45)
         </div>
 
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">

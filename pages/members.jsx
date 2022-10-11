@@ -17,7 +17,7 @@ export default function Register() {
     setLoading(true);
     const h = new Headers();
     h.set("Content-Type", "application/json");
-    const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/user/members?uid=${uid}`, {
+    const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/user/members?tid=${uid}`, {
       method: "GET",
       headers: h,
     });
@@ -74,7 +74,7 @@ export default function Register() {
           You can not join/create another team if you're already part of a team
         </h1> */}
         <form onSubmit={handleSubmit} className="m-4">
-          <label className={labelClass}>Personal Id</label>
+          <label className={labelClass}>Team Id</label>
           <input
             onChange={(e) => {
               setUid(e.target.value);
