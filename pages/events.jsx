@@ -1,5 +1,5 @@
-import Card from '../components/Events/card';
-import Head from 'next/head';
+import Card from "../components/Events/card";
+import Head from "next/head";
 
 export default function Events() {
   // "https://mdbootstrap.com/img/new/standard/nature/184.jpg"
@@ -155,7 +155,7 @@ export default function Events() {
             coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
             club="IET"
             venue="Online"
-            datetime="17th Oct 12:00 PM"
+            datetime="15th Oct 10:00AM-1:00PM"
             desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
           />
           <Card
@@ -358,7 +358,7 @@ export default function Events() {
         room using chains and locks. They will be provided it technical hint / codes in order to free
         themselves out of the room"
           />
-          
+
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="Society for Data Science"
