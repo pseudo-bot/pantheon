@@ -103,7 +103,9 @@ export default function Register() {
         </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
-            Team Name {!validname && "Error, Please Check Again"}
+            Team Name{" "}
+            {!validname &&
+              "Error, Please Check Again. Only Aplhanumeric characters and spaces are allowed"}
           </label>
           <input
             onChange={(e) => {
@@ -113,7 +115,9 @@ export default function Register() {
           />
 
           <label className={labelClass}>
-            Pantheon Id {!validname && "Error, Please Check Again"}
+            Pantheon Id{" "}
+            {!validname &&
+              "Error, Please Check Again. Make sure you have completed Individual Registration"}
           </label>
           <input
             onChange={(e) => {

@@ -128,7 +128,9 @@ export default function Register() {
         </h1>
         <form onSubmit={handleSubmit} className="m-4">
           <label className={labelClass}>
-            Name {!validname && "Error, Please Check Again"}
+            Name{" "}
+            {!validname &&
+              "Error, Please Check Again, Only alphabets and spaces are allowed"}
           </label>
           <input
             onChange={(e) => {
@@ -138,7 +140,9 @@ export default function Register() {
           />
 
           <label className={labelClass}>
-            College {!validcollege && "Error, Please Check Again"}
+            College{" "}
+            {!validcollege &&
+              "Error, Please Check Again, Only alphabets and spaces are allowed"}
           </label>
           <input
             onChange={(e) => {
