@@ -29,7 +29,7 @@ export default function Events() {
             coordinators="N/A"
             club="ACM BIT Mesra"
             venue="R&D building"
-            datetime="15/10/2022 12:00 PM - 1:00 PM and 2:00PM - 3:00PM"
+            datetime="15/10/2022 2:00 PM - 5:00PM"
             desc="This is a relay styled programming contest in which contestants have
           to participate in teams of two. Each team will be given a set of questions and at a time
           only one of the team members will be allowed to view andsolve the question. After fixed
