@@ -404,7 +404,7 @@ export default function Events() {
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             name="Insight Out"
             venue="Main Building (Classroom / Lecture Hall)"
-            datetime="17/10/2022 9:30 P.M.-10:30 P.M."
+            datetime="17/10/2022 9:30 A.M.-10:30 A.M."
             tsize="1"
             coordinators="1.Siddhant Dungdung (6299249898) 2.Ayushree (7050356902)"
             club="The Literary Club"
