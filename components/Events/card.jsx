@@ -18,7 +18,11 @@ export default function Card({
   return (
     <div className="flex justify-center">
       <div className="rounded-lg shadow-lg bg-neutral-800 max-w-sm">
-        <img className="rounded-t-lg" src={imgsrc} alt="" />
+        <img
+          className="rounded-t-lg object-contain h-72 mx-auto"
+          src={imgsrc}
+          alt=""
+        />
         <div className="p-6">
           <h5 className="text-white text-xl font-bold mb-2">{name}</h5>
           <h5 className="text-gray-400 text-base font-bold mb-2">{datetime}</h5>
