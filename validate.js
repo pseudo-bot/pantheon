@@ -12,8 +12,7 @@ const validatePhone = (phone) => {
 };
 //validate name
 const validateName = (name) => {
-  let re = /^[A-Za-z0-9 ]+$/;
-  return re.test(name) && name && name.length >= 3;
+  return name && name.length >= 3;
 };
 // validate college
 const validateCollege = (name) => {
