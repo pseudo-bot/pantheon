@@ -13,13 +13,15 @@ export default function Events() {
         {
           // This is the Card Container,
           // Copy this as a wrapper to the card component
+          // use regurl to add the url ex-
+          // <Card regurl="https://forms.google.com/" ... />
         }
-        
+
         <div className="sm:text-5xl text-4xl pt-8 text-gray-100 uppercase text-center font-bold">
-          Flagship Events 
+          Flagship Events
         </div>
         <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
-        POINTS : (250 - 200 - 150)
+          POINTS : (250 - 200 - 150)
         </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
@@ -134,7 +136,7 @@ export default function Events() {
           Formal Events
         </div>
         <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
-        POINTS : (125 - 100 - 75)
+          POINTS : (125 - 100 - 75)
         </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
@@ -383,7 +385,7 @@ export default function Events() {
           Informal Events
         </div>
         <div className="sm:text-4xl text-3xl pt-8 text-gray-100 uppercase text-center">
-        POINTS : (75 - 60 - 45)
+          POINTS : (75 - 60 - 45)
         </div>
 
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">

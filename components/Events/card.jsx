@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 export default function Card({
@@ -10,6 +11,7 @@ export default function Card({
   coordinators,
   tsize,
   desc,
+  regurl,
 }) {
   const [showDesc, setShowDesc] = useState(false);
   const [parent] = useAutoAnimate();
@@ -45,6 +47,13 @@ export default function Card({
             >
               {showDesc ? "Hide" : "Show"} Description
             </button>
+          )}
+          {regurl && (
+            <Link href={regurl}>
+              <button className="mx-6 my-6 sm:my-0 px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out">
+                Register
+              </button>
+            </Link>
           )}
         </div>
       </div>
