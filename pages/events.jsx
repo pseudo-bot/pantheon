@@ -23,7 +23,7 @@ export default function Events() {
         </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/codezilla.jpeg"
             name="Codezilla"
             tsize="2"
             coordinators="N/A"
@@ -38,7 +38,7 @@ export default function Events() {
           order of time."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/droid.jpeg"
             name="Droid Trooper"
             tsize="4-5"
             coordinators="1. Hammad (88047 13497)
@@ -52,7 +52,7 @@ export default function Events() {
           task and also crossing the zones in the stipulated time limit."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/illum.jpeg"
             name="Illuminati"
             tsize="4-5"
             coordinators="1.Sauhard Suman (+918507035524)
@@ -67,7 +67,7 @@ export default function Events() {
           and thou shalt pass."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/flashcode.jpeg"
             club="IEEE"
             name="Flashcode"
             venue="LH"
@@ -80,7 +80,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/hfs.jpeg"
             name="Hatch from Scratch (300 - 250 - 200)"
             tsize="2-3"
             coordinators="1.Lakshya (7992372721)
@@ -101,7 +101,7 @@ export default function Events() {
           claim the top spots."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/cemento.jpeg"
             name="Cube De Cemento"
             tsize="3-4"
             coordinators="1. Amit Kumar -7903662566
@@ -117,7 +117,7 @@ export default function Events() {
           of the cement."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/pquiz.jpeg"
             name="The Pantheon Quiz"
             tsize="2-3"
             coordinators="1. Jayant Krishna (+91 6205345955)"
@@ -138,11 +138,11 @@ export default function Events() {
         </div>
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/captured.jpeg"
             club="IEEE"
             name="Captured"
             venue="(Online)"
-            datetime="16/10/22 09:30am"
+            datetime="16/10/22 10:00am"
             tsize="(1 - 3)"
             coordinators="1. Ashutosh Jawanpuria (9570061101)
           2. Shambhavi Singh (9835049071)
@@ -156,7 +156,7 @@ export default function Events() {
           around the clock?"
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/codegolf.jpeg"
             name="Code Golf"
             tsize="1"
             coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
@@ -166,7 +166,7 @@ export default function Events() {
             desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/dance.jpeg"
             club="DANCE CLUB"
             name="Razzmatazz"
             venue="GP Birla Auditorium"
@@ -182,7 +182,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/dimensions.jpeg"
             club="IETE"
             name="Dimensions"
             venue="Classroom"
@@ -211,7 +211,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/sirfexcel.jpeg"
             club="Finance Club and SDS"
             name="Sirf Excel"
             venue="Main Building"
@@ -229,7 +229,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/mrmiss.jpeg"
             club="LEO CLUB & Event team"
             name="MR & MISS PANTHEON"
             venue="GP Birla Hall"
@@ -242,7 +242,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/cyber.jpeg"
             club="IEI Civil"
             name="Cyber-Bridgeton"
             venue="R&D Building"
@@ -259,7 +259,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="posters/Asta.jpg"
             club="SIME + SRIJAN"
             name="Asta Di Autos"
             venue="LH"
@@ -276,7 +276,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/picw.jpeg"
             club="Photographic Society"
             name="Pic Wagon"
             venue="Classroom"
@@ -304,7 +304,7 @@ export default function Events() {
         day-to-day problems. The participants will have to solve the same and provide a model which solves the problem. The teams will have to demonstrate it at last which will lead to the declaration of the winners."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/journalist.jpeg"
             club="NAPS"
             name="The Journalist's Hour"
             venue="LH"
@@ -342,7 +342,7 @@ export default function Events() {
         Participants are required to bring their own Keyboard , Joystick and otherperipherals."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/investor.jpeg"
             club="Entrepreneurship Development Cell & Finance Club"
             name="Investor's Hat"
             venue="LH"
@@ -353,7 +353,7 @@ export default function Events() {
         patterns of random companies will be shown without telling the name of the company. The participating teams have to make judgments on the basis of candlestick patterns and make maximum profit."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/sherlocked.jpeg"
             club="SIME"
             name="SherLocked"
             venue="Any Room in Main building"
@@ -367,7 +367,7 @@ export default function Events() {
           />
 
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/padhai.jpeg"
             club="Society for Data Science"
             name=" Padhai Pe Charcha with Prateek Narag "
             venue="Cat Hall"
@@ -388,7 +388,7 @@ export default function Events() {
 
         <div className="pt-8 flex flex-row flex-wrap justify-evenly gap-y-8">
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/gitout.jpeg"
             club="IET"
             name="Google-it-out"
             venue="Classrooms"
@@ -413,7 +413,7 @@ export default function Events() {
           "
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/murder.jpeg"
             name="Murder Mystery"
             venue="Mehek"
             datetime="17th October, 9:30AM -1.00 pm"
@@ -423,7 +423,7 @@ export default function Events() {
             desc="Murder Mystery is an event where the team would be given a plot related to a fictional murder story and clues related to it. Teams will encounter 2 types of clues; 1 will be based on a particular location and the other will be based on a character. The Location- based Clue will indicate to some location within the campus. Answers to the Character-based Clue maybe a character description/ identity/ personality of the suspect/ item which has been mentioned in the plot. Once a team solves a location clue and reaches the correct location, they will have to submit the answer for the location to the LEO members present there in the format mentioned below. After which they will be handed a character-based clue at the same location. Upon solving the given character-based clue, it’scorrect answer must be submitted at the same location where that particular character clue was provided to the team in the format mentioned below, subsequently, at the same location that team will receive some statements/reports which will further help in revealing the case and the next location-based clue will also be provided"
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/electro.jpeg"
             name="Electro-Shardes"
             venue="Classroom"
             datetime="17th October, 2:00 PM - 4:00 PM"
@@ -438,7 +438,7 @@ export default function Events() {
           3. In 2nd round one of the two team members will be blind-folded. A few electronic devices will be
           placed in front of the participants. The blind folded person will have to guess the name of the component while the second person assists their partner by describing the device to them."
           />
-          <Card
+          {/* <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             name="PITSTOP"
             venue="IC"
@@ -447,7 +447,7 @@ export default function Events() {
             coordinators="1. AmitKumar-8130755401 2. Sushanto - 9031152152"
             club="Firebolt Racing"
             desc="The objective of a team is to change all the tyres of a vehicle in the least possible time in the correct manner. The team which completes the task in the correct way and minimum time wins the competition."
-          />
+          /> */}
           <Card
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="BIOTS"
@@ -470,7 +470,7 @@ export default function Events() {
           "
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/green.jpeg"
             club="EPAC"
             name="Green Avengers"
             venue="LH"
@@ -485,7 +485,7 @@ export default function Events() {
           5. Round 3(Finding the lost avenger)-Teams will be given some clues to find out the lost avenger and Bring balance to the planet. The one to find it first will be the winner."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/mediacre.jpeg"
             club="NAPS"
             name="MediaCre"
             venue="Main Building / LH"
