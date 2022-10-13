@@ -327,7 +327,7 @@ export default function Events() {
         ● The topic for the discussion will be allotted, and the participants will be judgedon parameters like content, presentation and rebuttal questions"
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/xerolag.jpeg"
             club="Sports and Adventure Club"
             name="Xerolag"
             venue="RnD Building"
@@ -340,7 +340,7 @@ export default function Events() {
         Participants are required to bring their own PCs, Mouse and other peripherals."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/kickoff.jpeg"
             club="Sports and Adventure Club"
             name="KickOff"
             venue="RnD Building"
