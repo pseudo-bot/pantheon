@@ -401,7 +401,7 @@ export default function Events() {
         ranked on the basis of images identified in the given time."
           />
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/insight.jpeg"
             name="Insight Out"
             venue="Main Building (Classroom / Lecture Hall)"
             datetime="17/10/2022 9:30 A.M.-10:30 A.M."
