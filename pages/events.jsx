@@ -31,6 +31,7 @@ export default function Events() {
             coordinators="N/A"
             club="ACM BIT Mesra"
             venue="R&D building"
+            regurl="https://forms.gle/qa5JgNVhcCP1LsgZ7"
             datetime="15/10/2022 2:00 PM - 5:00PM"
             desc="This is a relay styled programming contest in which contestants have
           to participate in teams of two. Each team will be given a set of questions and at a time
@@ -105,6 +106,7 @@ export default function Events() {
           <Card
             imgsrc="/posters/cemento.jpeg"
             name="Cube De Cemento"
+            regurl="https://forms.gle/ydNG6rvivJ7qMNba7"
             tsize="3-4"
             coordinators="1. Amit Kumar -7903662566
           2. Harsh Khokar 9116517499"
@@ -163,6 +165,7 @@ export default function Events() {
             tsize="1"
             coordinators="1.Shubhankar(7004591798) 2.Hardik(7061579443)"
             club="IET"
+            regurl="https://forms.gle/ud7fbpS9gGQS9Y4s5"
             venue="Online"
             datetime="15th Oct 10:00PM - 1:00AM"
             desc="This will be an online event that will have the competitors battle it out in a coding competition where the challenger with the shortest code wins."
@@ -171,6 +174,7 @@ export default function Events() {
             imgsrc="/posters/dance.jpeg"
             club="DANCE CLUB"
             name="Razzmatazz"
+            regurl="https://docs.google.com/forms/d/e/1FAIpQLSf6Pqp3qXfGQBQhR0yk9Ebhygy5t_9FDRVWP8bxw-Kk2ofG-Q/viewform?usp=sf_link"
             venue="GP Birla Auditorium"
             datetime="17TH OCTOBER 2022 4PM - 5PM"
             tsize=""
@@ -187,6 +191,7 @@ export default function Events() {
             imgsrc="/posters/dimensions.jpeg"
             club="IETE"
             name="Dimensions"
+            regurl="https://bit.ly/Dimensions-Pantheon22"
             venue="Classroom"
             datetime="15/10/22 - 11:00AM to 12:00pm15/10/22 - 2:00PM to 4:00pm"
             tsize="2-3"
@@ -216,6 +221,7 @@ export default function Events() {
             imgsrc="/posters/sirfexcel.jpeg"
             club="Finance Club and SDS"
             name="Sirf Excel"
+            regurl="https://bit.ly/3fW0GHa"
             venue="Main Building"
             datetime="17/10/2022, 9:30 AM - 10:30 AM and 11:30AM - 12:30 PM"
             tsize="2-3"
@@ -234,6 +240,7 @@ export default function Events() {
             imgsrc="/posters/mrmiss.jpeg"
             club="LEO CLUB & Event team"
             name="MR & MISS PANTHEON"
+            regurl="https://forms.gle/TqmHLdhKxB2bvfo16"
             venue="GP Birla Hall"
             datetime="17th October, 3:00 PM to 4:00 PM."
             tsize="1-2"
@@ -326,6 +333,7 @@ export default function Events() {
             venue="RnD Building"
             datetime="15th October 2022 , 09:30"
             tsize="5 and 1 Substitute"
+            regurl="https://forms.gle/uYNKeC8h5R6CBEdb9"
             coordinators="Suvigya (7903883292)"
             desc="All enrolled teams are invited for a 5v5 preliminary group stage wherein the rounds will be eliminatory in nature. Teams advancing from the group stages willcompete in the semi-finals and the grand finals where 3 matches on different maps will be held. A team will be eliminated after a three match spell.
         Use of any unfair means will result in complete disqualification.
@@ -347,6 +355,7 @@ export default function Events() {
             imgsrc="/posters/investor.jpeg"
             club="Entrepreneurship Development Cell & Finance Club"
             name="Investor's Hat"
+            regurl="https://bit.ly/InvestorsHat"
             venue="LH"
             datetime="16th Oct, 10:30AM - 1:00 PM"
             tsize="1-3"
@@ -372,6 +381,7 @@ export default function Events() {
             imgsrc="/posters/padhai.jpeg"
             club="Society for Data Science"
             name=" Padhai Pe Charcha with Prateek Narag "
+            regurl="https://forms.gle/KJ7wp4CZTDAxMmuR6"
             venue="Cat Hall"
             datetime="15 October, 2:30 - 4:30 PM"
             tsize="-"
@@ -398,6 +408,7 @@ export default function Events() {
             tsize="2-3"
             coordinators="1. Shubhankar (7004591798)
         2. Hardik (7061579443)"
+            regurl="https://forms.gle/uwrSEvt3VxNg9Rc77"
             desc="The contestants will be shown multiple images and will be required to extract
         similar images in google image results by tweaking the search parameters. Teams would be
         ranked on the basis of images identified in the given time."
@@ -408,6 +419,7 @@ export default function Events() {
             venue="Main Building (Classroom / Lecture Hall)"
             datetime="17/10/2022 9:30 A.M.-10:30 A.M."
             tsize="1"
+            regurl="https://docs.google.com/forms/d/e/1FAIpQLSf_HT0cupDbbgLw9FHJikqLv_s2eZXkNqdwmeiAhJyDcVw76Q/viewform?usp=pp_url"
             coordinators="1.Siddhant Dungdung (6299249898) 2.Ayushree (7050356902)"
             club="The Literary Club"
             desc="Insight Out is a two-round event. In the first round, all the participants will
@@ -418,6 +430,7 @@ export default function Events() {
             imgsrc="/posters/murder.jpeg"
             name="Murder Mystery"
             venue="Mehek"
+            regurl="https://bit.ly/3ehAjLE"
             datetime="17th October, 9:30AM -1.00 pm"
             tsize="1 to 4"
             coordinators="1. Danish - 9462158925 2. Divesh - 9608818149"
@@ -427,6 +440,7 @@ export default function Events() {
           <Card
             imgsrc="/posters/electro.jpeg"
             name="Electro-Shardes"
+            regurl="https://bit.ly/electro_charades_22"
             venue="Classroom"
             datetime="17th October, 2:00 PM - 4:00 PM"
             tsize="2"
