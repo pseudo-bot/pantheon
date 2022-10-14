@@ -67,7 +67,7 @@ export default function Register() {
             </div>
           </div>
           <button
-            className="bg-rose-900 text-white font-bold px-4 py-2 rounded-md"
+            className="bg-rose-900 text-white font-bold px-4 py-2 rounded-md mb-12"
             onClick={() => {
               setModalData(false);
             }}
