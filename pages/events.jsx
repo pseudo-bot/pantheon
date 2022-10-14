@@ -28,7 +28,7 @@ export default function Events() {
             imgsrc="/posters/codezilla.jpeg"
             name="Codezilla"
             tsize="2"
-            coordinators="N/A"
+            coordinators="1.Ratul (6376819421), 2. Naman (9334717700)"
             club="ACM BIT Mesra"
             venue="R&D building"
             regurl="https://forms.gle/qa5JgNVhcCP1LsgZ7"
