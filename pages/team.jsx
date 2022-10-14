@@ -73,7 +73,7 @@ export default function Register() {
         <title> Team Registration | Pantheon 2022</title>
       </Head>
       {modalData && (
-        <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
+        <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col overflow-y-auto">
           <div className="flex-1 text-center flex flex-col justify-center">
             <div className="font-bold text-2xl text-green-600">
               {" "}

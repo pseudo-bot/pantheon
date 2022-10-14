@@ -17,16 +17,19 @@ export default function Register() {
     setLoading(true);
     const h = new Headers();
     h.set("Content-Type", "application/json");
-    const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/user/members?tid=${uid}`, {
-      method: "GET",
-      headers: h,
-    });
+    const t = await fetch(
+      `${process.env.NEXT_PUBLIC_APIBASE}/user/members?tid=${uid}`,
+      {
+        method: "GET",
+        headers: h,
+      }
+    );
     if (t.status == 200) {
-        const res = await t.json();
-        console.log(res)
+      const res = await t.json();
+      console.log(res);
       setModalData({
         greenText: "Team Members",
-        members: Object.values(res.members).map(({uid,name})=>`${name}`),  
+        members: Object.values(res.members).map(({ uid, name }) => `${name}`),
       });
     } else {
       const res = await t.json();
@@ -40,21 +43,26 @@ export default function Register() {
   return (
     <>
       {modalData && (
-        <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col">
+        <div className="fixed w-screen p-4 z-10 bg-neutral-800/80 h-[calc(100vh-4rem)] text-xl backdrop-blur-sm backdrop-filter flex flex-col overflow-y-auto">
           <div className="flex-1 text-center flex flex-col justify-center">
-            <div className={`font-bold text-2xl ${modalData.members?"text-green-600":"text-red-500"}`}>
+            <div
+              className={`font-bold text-2xl ${
+                modalData.members ? "text-green-600" : "text-red-500"
+              }`}
+            >
               {modalData.greenText || modalData.redText}
             </div>
             <div className="text-4xl text-white mt-4 ">
               <ul className="list-disc list-inside leading-snug">
-              {modalData.members?.map(e=>{
-                return (
-                  <>
-                  <br/>
-                  <li>{e}</li>
-                  </>
-                )
-              })}{modalData.blackText}
+                {modalData.members?.map((e) => {
+                  return (
+                    <>
+                      <br />
+                      <li>{e}</li>
+                    </>
+                  );
+                })}
+                {modalData.blackText}
               </ul>
             </div>
           </div>
@@ -81,8 +89,6 @@ export default function Register() {
             }}
             className={inputClass}
           />
-
-          
 
           <button
             type="submit"
