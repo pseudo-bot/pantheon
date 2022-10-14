@@ -111,7 +111,7 @@ export default function Events() {
             coordinators="1. Amit Kumar -7903662566
           2. Harsh Khokar 9116517499"
             club="IEI Civil"
-            venue="LH-1(prelims) & Civil Dept Lab (Final)"
+            venue="Classroom 211 & Civil Dept Lab (Final)"
             datetime="16/10/22 , 11:30 – 12:30 (prelims) & 2:00PM – 4:00 PM(Final)"
             desc="The participants who clear prelims round which is a quiz round can go to second
           round in which they have to make a cube from the materials provided to them in the specified time.
@@ -242,7 +242,7 @@ export default function Events() {
             name="MR & MISS PANTHEON"
             regurl="https://forms.gle/TqmHLdhKxB2bvfo16"
             venue="GP Birla Hall"
-            datetime="17th October, 3:00 PM to 4:00 PM."
+            datetime="17th October, 6:30 PM to 7:30 PM."
             tsize="1-2"
             coordinators="1. Danish – 9462158925
   2. Divesh - 9608818149"
@@ -305,7 +305,7 @@ export default function Events() {
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="IIChE"
             name="Chem-A-Thon"
-            venue="N/A"
+            venue="ClassRoom"
             datetime="16/10/2022 2:00 PM - 5:00 PM"
             tsize="3-4"
             coordinators="1. Devashish - 9334859543 2.Sneha- 8252144101"
@@ -367,7 +367,7 @@ export default function Events() {
             imgsrc="/posters/sherlocked.jpeg"
             club="SIME"
             name="SherLocked"
-            venue="Any Room in Main building"
+            venue="Classroom 209 and 233"
             datetime="16 Oct. 2:00 PM - 4:00 PM"
             tsize="3"
             coordinators="1. Aditya Raj Choudhary: 7992353546
@@ -468,7 +468,7 @@ export default function Events() {
             imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
             club="BIOTS"
             name="Wiki Wars"
-            venue="N/A"
+            venue="R&D"
             datetime="16/10/2022 , 3:00 PM - 4:00 PM"
             tsize="2"
             coordinators="• AFZAL AMANULLAH (8271827570)
@@ -489,7 +489,7 @@ export default function Events() {
             imgsrc="/posters/green.jpeg"
             club="EPAC"
             name="Green Avengers"
-            venue="LH"
+            venue="Classroom"
             datetime="16 Oct , 9:30am-11:30pm"
             tsize="2-3"
             coordinators="1. Ankit(9771347425)
