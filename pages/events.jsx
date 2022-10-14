@@ -465,7 +465,7 @@ export default function Events() {
             desc="The objective of a team is to change all the tyres of a vehicle in the least possible time in the correct manner. The team which completes the task in the correct way and minimum time wins the competition."
           /> */}
           <Card
-            imgsrc="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            imgsrc="/posters/wiki.png"
             club="BIOTS"
             name="Wiki Wars"
             venue="R&D"
