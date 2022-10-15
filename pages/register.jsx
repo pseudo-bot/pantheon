@@ -63,7 +63,7 @@ export default function Register() {
     if (valid) {
       const h = new Headers();
       h.set("Content-Type", "application/json");
-      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/user/create`, {
+      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/user`, {
         method: "POST",
         headers: h,
         body: JSON.stringify({
@@ -78,8 +78,8 @@ export default function Register() {
         const res = await t.json();
         setModalData({
           greenText: "Success",
-          redText: "Your Pantheon UID has been sent to your email",
-          blackText: `Your Pantheon UID is ${res.uid}`,
+          redText: "Your Pantheon ID has been sent to your email",
+          blackText: `Your Pantheon ID is ${res.uid}`,
         });
       } else {
         const res = await t.json();

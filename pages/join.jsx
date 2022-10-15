@@ -35,8 +35,8 @@ export default function Register() {
     if (valid) {
       const h = new Headers();
       h.set("Content-Type", "application/json");
-      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/join`, {
-        method: "POST",
+      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team`, {
+        method: "PUT",
         headers: h,
         body: JSON.stringify({
           tid: tid,

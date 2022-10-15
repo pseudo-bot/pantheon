@@ -40,7 +40,7 @@ export default function Register() {
     if (valid) {
       const h = new Headers();
       h.set("Content-Type", "application/json");
-      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team/create`, {
+      const t = await fetch(`${process.env.NEXT_PUBLIC_APIBASE}/team`, {
         method: "POST",
         headers: h,
         body: JSON.stringify({
@@ -53,7 +53,7 @@ export default function Register() {
         console.log(res);
         setModalData({
           greenText: "Success",
-          redText: "Your TeamID have been sent to email",
+          redText: "Your Team ID have been sent to email",
           blackText: `Your Team ID is ${res.tid}`,
         });
       } else {
