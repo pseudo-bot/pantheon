@@ -195,7 +195,7 @@ export default function Events() {
             name="Dimensions"
             regurl="https://bit.ly/Dimensions-Pantheon22"
             venue="Classroom"
-            datetime="15/10/22 - 11:00AM to 12:00pm15/10/22 - 2:00PM to 4:00pm"
+            datetime="15/10/22 - 2:00PM to 5:00pm"
             tsize="2-3"
             coordinators="1. Naman Jain (+91 70020 43430)
       2. Ankur Pandey (+91 62068 41016)"
