@@ -24,7 +24,7 @@ export default function Leaderboard({ data }) {
                       scope="col"
                       className="text-sm font-medium px-6 py-4 text-left border-l border-gray-700 text-white"
                     >
-                      Total ID
+                      Team ID
                     </th>
                     <th
                       scope="col"
