@@ -32,7 +32,7 @@ export default function Admin() {
         }
     };
     return (
-        <div className="h-screen flex items-center justify-center flex-col gap-4 w-screen">
+        <div className="relative top-32 flex items-center justify-center flex-col gap-4 w-screen">
             <input
                 type="text"
                 placeholder="Username"
