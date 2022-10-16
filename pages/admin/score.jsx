@@ -117,7 +117,7 @@ export default function Scores() {
             />
           </div>
           <div>
-            <div className="text-white">Update Score</div>
+            <div className="text-white">Add points</div>
 
             <input
               type="number"
