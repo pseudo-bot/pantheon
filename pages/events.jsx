@@ -146,7 +146,7 @@ export default function Events() {
             imgsrc="/posters/captured.jpeg"
             club="IEEE"
             name="Captured"
-            regurl="https://docs.google.com/forms/d/e/1FAIpQLSdT_m4d3lvuSIIy_Dm2ubau0hGaEA2QWQLgPeNwyl2a9DhXjQ/viewform"
+            regurl={{ to: "http://20.235.248.90", title: "Link" }}
             venue="(Online)"
             datetime="16/10/22 10:00am"
             tsize="(1 - 3)"
